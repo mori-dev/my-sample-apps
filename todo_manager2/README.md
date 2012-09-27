@@ -1,7 +1,7 @@
 # todo_manager2
 
 * todo_manager 同様、[backbone.js の example](https://github.com/documentcloud/backbone/tree/master/examples) にある TODO アプリ todos のバックエンドに Rails を使用し、ストレージを MySQL にしました。
-* ルーター、コレクションなどの役割ごとに、ディレクトリ、ファイルを分割しました。backbone-on-rails gem を導入しました。
+* ルーター、コレクションなどの役割ごとに、ディレクトリ、ファイルを分割しました。[backbone-on-rails gem](http://github.com/meleyal/backbone-on-rails) を導入しました。
 
 ## backbone-on-rails gem でひな形の生成
 
