@@ -1,0 +1,31 @@
+source 'https://rubygems.org'
+
+gem 'rails', '3.2.8'
+
+gem 'mysql2'
+
+gem 'devise'
+gem "omniauth"
+gem "omniauth-twitter"
+gem "therubyracer"
+gem "pit"
+gem "rails_config"
+
+group :development do
+  gem 'sextant'
+  gem 'rails-footnotes'
+  gem 'quiet_assets'
+  gem 'annotator'
+  gem 'letter_opener'
+  gem 'awesome_print'
+  gem 'letters'
+end
+
+group :assets do
+  gem 'sass-rails',   '~> 3.2.3'
+  gem 'coffee-rails', '~> 3.2.1'
+
+  gem 'uglifier', '>= 1.0.3'
+end
+
+gem 'jquery-rails'
