@@ -15,3 +15,7 @@
 ## twitter-login-app
 
 twitter でのログイン機能を、rails (3.2.8), omniauth (1.1.1), omniauth-twitter (0.0.13), devise (2.1.2) で実装しました。
+
+## twitter-facebook-github-login-app
+
+rails での twitter/facebook/github ログイン機能を実装しました。
